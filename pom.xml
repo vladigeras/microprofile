@@ -24,7 +24,6 @@
     <maven.compiler.source>11</maven.compiler.source>
     <final.name>microprofile</final.name>
     <helidonVersion>2.2.0</helidonVersion>
-    <h2Version>1.4.200</h2Version>
   </properties>
 
   <dependencies>
@@ -34,11 +33,6 @@
       <version>${mpVersion}</version>
       <type>pom</type>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.h2database</groupId>
-      <artifactId>h2</artifactId>
-      <version>${h2Version}</version>
     </dependency>
   </dependencies>
 
